@@ -1,0 +1,38 @@
+{
+    "version": 1,
+    "key": "lovelace_resources",
+    "data": {
+        "items": [
+            {
+                "url": "/hacsfiles/meteo-france-weather-card/meteo-france-weather-card.js",
+                "type": "module",
+                "id": "a7e467d05abd4cc2a2795e1af0419dcc"
+            },
+            {
+                "url": "/hacsfiles/button-card/button-card.js",
+                "type": "module",
+                "id": "521d3539ca384b90bbb6af11322d56c8"
+            },
+            {
+                "url": "/hacsfiles/battery-state-card/battery-state-card.js",
+                "type": "module",
+                "id": "4523c2bf2f4a44c6b74f5344d4def606"
+            },
+            {
+                "url": "/hacsfiles/lovelace-layout-card/layout-card.js",
+                "type": "module",
+                "id": "4e090a44e506474c8a25c49390f5f2f9"
+            },
+            {
+                "url": "/hacsfiles/lovelace-multiple-entity-row/multiple-entity-row.js",
+                "type": "module",
+                "id": "f3d12bdf55ff4466bf71269a137d95aa"
+            },
+            {
+                "url": "/hacsfiles/lovelace-xiaomi-vacuum-card/xiaomi-vacuum-card.js",
+                "type": "module",
+                "id": "65aba9492f7b4662910bc41980db21ef"
+            }
+        ]
+    }
+}

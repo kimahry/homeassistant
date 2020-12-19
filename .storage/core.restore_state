@@ -1,0 +1,593 @@
+{
+    "version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.laurent",
+                "state": "home",
+                "attributes": {
+                    "editable": true,
+                    "id": "laurent",
+                    "latitude": 47.2160057,
+                    "longitude": -1.5335765,
+                    "gps_accuracy": 15,
+                    "source": "person.laurent",
+                    "user_id": "1e9de6afb6194b5ba5bc22d6eb39700f",
+                    "friendly_name": "laurent"
+                },
+                "last_changed": "2020-12-19T11:06:37.871794+00:00",
+                "last_updated": "2020-12-19T11:06:37.871794+00:00",
+                "context": {
+                    "id": "0213904832331914711657d9252cf237",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-19T11:07:02.770311+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_datetime.salon_start_confort_week",
+                "state": "17:00:00",
+                "attributes": {
+                    "editable": true,
+                    "has_date": false,
+                    "has_time": true,
+                    "hour": 17,
+                    "minute": 0,
+                    "second": 0,
+                    "timestamp": 61200,
+                    "friendly_name": "salon_start_confort_week"
+                },
+                "last_changed": "2020-12-19T11:06:42.392860+00:00",
+                "last_updated": "2020-12-19T11:06:42.392860+00:00",
+                "context": {
+                    "id": "9ae55e2b1a4ab714e9eda05aab962dd7",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-19T11:07:02.770311+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_datetime.salon_start_confort_week_end",
+                "state": "10:00:00",
+                "attributes": {
+                    "editable": true,
+                    "has_date": false,
+                    "has_time": true,
+                    "hour": 10,
+                    "minute": 0,
+                    "second": 0,
+                    "timestamp": 36000,
+                    "friendly_name": "salon_start_confort_week_end"
+                },
+                "last_changed": "2020-12-19T11:06:42.393487+00:00",
+                "last_updated": "2020-12-19T11:06:42.393487+00:00",
+                "context": {
+                    "id": "e6149869cda87221ded8e4400bf31a7d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-19T11:07:02.770311+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_datetime.salon_stop_confort",
+                "state": "23:30:00",
+                "attributes": {
+                    "editable": true,
+                    "has_date": false,
+                    "has_time": true,
+                    "hour": 23,
+                    "minute": 30,
+                    "second": 0,
+                    "timestamp": 84600,
+                    "friendly_name": "salon_stop_confort"
+                },
+                "last_changed": "2020-12-19T11:06:42.393903+00:00",
+                "last_updated": "2020-12-19T11:06:42.393903+00:00",
+                "context": {
+                    "id": "9dfbcbb1bbffa9b886cc78688232e80e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-19T11:07:02.770311+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_boolean.volet_hiver",
+                "state": "on",
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Volet hiver",
+                    "icon": "mdi:window-shutter"
+                },
+                "last_changed": "2020-12-19T11:06:42.394330+00:00",
+                "last_updated": "2020-12-19T11:06:42.394330+00:00",
+                "context": {
+                    "id": "91eaeac23a0dfe327619d7ab2103b8e0",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-19T11:07:02.770311+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.volets_fermetture_nuit",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2020-12-18T22:59:00.008670+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1607163472914",
+                    "friendly_name": "volets_fermetture_nuit"
+                },
+                "last_changed": "2020-12-19T11:06:44.809702+00:00",
+                "last_updated": "2020-12-19T11:06:44.809702+00:00",
+                "context": {
+                    "id": "ea21c94067979eb2a5c39ecf44a3f318",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-19T11:07:02.770311+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.chauffage_salon_eco",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2020-12-18T22:30:00.015483+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1607255382449",
+                    "friendly_name": "Chauffage salon eco"
+                },
+                "last_changed": "2020-12-19T11:06:44.810491+00:00",
+                "last_updated": "2020-12-19T11:06:44.810491+00:00",
+                "context": {
+                    "id": "70223005f9c1bb36e326ab13ad87f74c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-19T11:07:02.770311+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.chauffage_salon_confort",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2020-12-18T16:00:00.014876+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1607255620040",
+                    "friendly_name": "Chauffage salon confort"
+                },
+                "last_changed": "2020-12-19T11:06:44.811510+00:00",
+                "last_updated": "2020-12-19T11:06:44.811510+00:00",
+                "context": {
+                    "id": "3cb522b1fb05fa01f660cc95e1f6b53f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-19T11:07:02.770311+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.volet_ouverture_jour_2",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2020-12-19T07:00:11.136254+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1607270848973",
+                    "friendly_name": "volet_ouverture_jour"
+                },
+                "last_changed": "2020-12-19T11:06:44.812338+00:00",
+                "last_updated": "2020-12-19T11:06:44.812338+00:00",
+                "context": {
+                    "id": "bf8bf47ef8a9bc5d168f1e207ca62c8b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-19T11:07:02.770311+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.chauffage_salon_confort_weekend",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2020-12-12T09:00:01.525810+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1607368404681",
+                    "friendly_name": " Chauffage salon confort weekend"
+                },
+                "last_changed": "2020-12-19T11:06:44.813329+00:00",
+                "last_updated": "2020-12-19T11:06:44.813329+00:00",
+                "context": {
+                    "id": "88c954b1739ce50ceeae3ce1d3e9ee8b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-19T11:07:02.770311+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.sm_t720",
+                "state": "home",
+                "attributes": {
+                    "source_type": "gps",
+                    "latitude": 47.2159997,
+                    "longitude": -1.5335745,
+                    "gps_accuracy": 15,
+                    "altitude": 73.0,
+                    "course": 0,
+                    "speed": 0,
+                    "vertical_accuracy": 2,
+                    "friendly_name": "Lo-tablette"
+                },
+                "last_changed": "2020-12-19T11:06:47.312295+00:00",
+                "last_updated": "2020-12-19T11:06:47.312295+00:00",
+                "context": {
+                    "id": "95ff20d1d09de4b7e45c1aa3b9cd9664",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-19T11:07:02.770311+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.lo_portable",
+                "state": "home",
+                "attributes": {
+                    "source_type": "gps",
+                    "latitude": 47.2160057,
+                    "longitude": -1.5335765,
+                    "gps_accuracy": 15,
+                    "altitude": 77.0,
+                    "course": 0,
+                    "speed": 0,
+                    "vertical_accuracy": 2,
+                    "friendly_name": "Lo-portable"
+                },
+                "last_changed": "2020-12-19T11:06:47.313547+00:00",
+                "last_updated": "2020-12-19T11:06:47.313547+00:00",
+                "context": {
+                    "id": "b755928fd56eaab2bacc29d18d0f964b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-19T11:07:02.770311+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.shelly_shsw_25_68c63af91e06_1_current_consumption",
+                "state": "0",
+                "attributes": {
+                    "shelly_type": "Shelly 2.5",
+                    "shelly_id": "68C63AF91E06-1",
+                    "ip_address": "192.168.15.11",
+                    "total_consumption": "0.0 kWh",
+                    "unit_of_measurement": "W",
+                    "friendly_name": "Volet salon-1",
+                    "icon": "mdi:flash-outline"
+                },
+                "last_changed": "2020-12-19T11:06:56.029648+00:00",
+                "last_updated": "2020-12-19T11:06:56.029648+00:00",
+                "context": {
+                    "id": "778a4c0f88215d2512ccc660baa1c617",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-19T11:07:02.770311+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.shelly_shsw_25_68c63af91e06_1_switch",
+                "state": "off",
+                "attributes": {
+                    "shelly_type": "Shelly 2.5",
+                    "shelly_id": "68C63AF91E06-1",
+                    "ip_address": "192.168.15.11",
+                    "friendly_name": "Volet salon-1 - Switch",
+                    "icon": "mdi:hockey-puck"
+                },
+                "last_changed": "2020-12-19T11:06:56.029934+00:00",
+                "last_updated": "2020-12-19T11:06:56.029934+00:00",
+                "context": {
+                    "id": "00e7d3bb1cda5e4a52e9a6b6bc42bdcd",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-19T11:07:02.770311+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.shelly_shsw_25_68c63af91e06_2_switch",
+                "state": "off",
+                "attributes": {
+                    "shelly_type": "Shelly 2.5",
+                    "shelly_id": "68C63AF91E06-2",
+                    "ip_address": "192.168.15.11",
+                    "friendly_name": "Volet salon-2 - Switch",
+                    "icon": "mdi:hockey-puck"
+                },
+                "last_changed": "2020-12-19T11:06:56.035538+00:00",
+                "last_updated": "2020-12-19T11:06:56.035538+00:00",
+                "context": {
+                    "id": "7ff678109eec052ecd856b9723dfe05c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-19T11:07:02.770311+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "cover.shelly_shsw_25_68c63af91e06",
+                "state": "unknown",
+                "attributes": {
+                    "shelly_type": "Shelly 2.5 (Roller)",
+                    "shelly_id": "68C63AF91E06",
+                    "ip_address": "192.168.15.11",
+                    "protocols": [
+                        "CoAP-discovery",
+                        "CoAP-msg",
+                        "poll"
+                    ],
+                    "over_temp": 0,
+                    "has_firmware_update": false,
+                    "cloud_status": "disabled",
+                    "total_consumption": "0.0 kWh",
+                    "friendly_name": "Volet Salon",
+                    "supported_features": 11
+                },
+                "last_changed": "2020-12-19T11:06:56.019534+00:00",
+                "last_updated": "2020-12-19T11:07:00.041412+00:00",
+                "context": {
+                    "id": "fae048d05387565f87c6ffeffe054fa0",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-19T11:07:02.770311+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "cover.shelly_shsw_25_68c63af92d05",
+                "state": "unknown",
+                "attributes": {
+                    "shelly_type": "Shelly 2.5 (Roller)",
+                    "shelly_id": "68C63AF92D05",
+                    "ip_address": "192.168.15.10",
+                    "protocols": [
+                        "CoAP-discovery",
+                        "CoAP-msg",
+                        "poll"
+                    ],
+                    "over_temp": 0,
+                    "has_firmware_update": false,
+                    "cloud_status": "disabled",
+                    "total_consumption": "0.0 kWh",
+                    "friendly_name": "Volet cuisine",
+                    "supported_features": 11
+                },
+                "last_changed": "2020-12-19T11:06:56.033274+00:00",
+                "last_updated": "2020-12-19T11:07:00.054551+00:00",
+                "context": {
+                    "id": "2d704a7abb08cf54d1d64cea1a087a6a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-19T11:07:02.770311+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.shelly_shsw_25_68c63af92d05_1_current_consumption",
+                "state": "0",
+                "attributes": {
+                    "shelly_type": "Shelly 2.5",
+                    "shelly_id": "68C63AF92D05-1",
+                    "ip_address": "192.168.15.10",
+                    "total_consumption": "0.0 kWh",
+                    "unit_of_measurement": "W",
+                    "friendly_name": "Volet cuisine-1",
+                    "icon": "mdi:flash-outline"
+                },
+                "last_changed": "2020-12-19T11:06:56.033633+00:00",
+                "last_updated": "2020-12-19T11:06:56.033633+00:00",
+                "context": {
+                    "id": "2f77153a88dded74304f72c1c0ad1ebb",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-19T11:07:02.770311+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.shelly_shsw_25_68c63af92d05_1_switch",
+                "state": "off",
+                "attributes": {
+                    "shelly_type": "Shelly 2.5",
+                    "shelly_id": "68C63AF92D05-1",
+                    "ip_address": "192.168.15.10",
+                    "friendly_name": "Volet cuisine-1 - Switch",
+                    "icon": "mdi:hockey-puck"
+                },
+                "last_changed": "2020-12-19T11:06:56.033931+00:00",
+                "last_updated": "2020-12-19T11:06:56.033931+00:00",
+                "context": {
+                    "id": "73d6026adbe4951fb592c377a2db587e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-19T11:07:02.770311+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.shelly_shsw_25_68c63af92d05_2_switch",
+                "state": "on",
+                "attributes": {
+                    "shelly_type": "Shelly 2.5",
+                    "shelly_id": "68C63AF92D05-2",
+                    "ip_address": "192.168.15.10",
+                    "friendly_name": "Volet cuisine-2 - Switch",
+                    "icon": "mdi:hockey-puck"
+                },
+                "last_changed": "2020-12-19T11:06:56.034298+00:00",
+                "last_updated": "2020-12-19T11:06:56.034298+00:00",
+                "context": {
+                    "id": "ccd1fc32f601b99b965a652054d86cd6",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-19T11:07:02.770311+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.shelly_shsw_25_68c63af91e06_total_consumption",
+                "state": "0.0",
+                "attributes": {
+                    "shelly_type": "Shelly 2.5 (Roller)",
+                    "shelly_id": "68C63AF91E06",
+                    "ip_address": "192.168.15.11",
+                    "unit_of_measurement": "kWh",
+                    "friendly_name": "Volet cuisine",
+                    "icon": "mdi:flash-circle",
+                    "device_class": "power"
+                },
+                "last_changed": "2020-12-19T11:06:56.034558+00:00",
+                "last_updated": "2020-12-19T11:06:56.034558+00:00",
+                "context": {
+                    "id": "1bf399418d4f89575cb8e579436f4454",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-19T11:07:02.770311+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.shelly_shsw_25_68c63af91e06_1_total_consumption",
+                "state": "0.0",
+                "attributes": {
+                    "shelly_type": "Shelly 2.5",
+                    "shelly_id": "68C63AF91E06-1",
+                    "ip_address": "192.168.15.11",
+                    "unit_of_measurement": "kWh",
+                    "friendly_name": "Volet salon-1 - Total consumption",
+                    "icon": "mdi:flash-circle",
+                    "device_class": "power"
+                },
+                "last_changed": "2020-12-19T11:06:56.034811+00:00",
+                "last_updated": "2020-12-19T11:06:56.034811+00:00",
+                "context": {
+                    "id": "3bf3770cc47937ee41d8b3b791f01bff",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-19T11:07:02.770311+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.shelly_shsw_25_68c63af92d05_total_consumption",
+                "state": "0.0",
+                "attributes": {
+                    "shelly_type": "Shelly 2.5 (Roller)",
+                    "shelly_id": "68C63AF92D05",
+                    "ip_address": "192.168.15.10",
+                    "unit_of_measurement": "kWh",
+                    "friendly_name": "Shelly 2.5 (Roller) - 68C63AF92D05 - Total consumption",
+                    "icon": "mdi:flash-circle",
+                    "device_class": "power"
+                },
+                "last_changed": "2020-12-19T11:06:59.828928+00:00",
+                "last_updated": "2020-12-19T11:06:59.828928+00:00",
+                "context": {
+                    "id": "c05268827b06ecbdfff703cbe7a98319",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-19T11:07:02.770311+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.shelly_shsw_25_68c63af92d05_1_total_consumption",
+                "state": "0.0",
+                "attributes": {
+                    "shelly_type": "Shelly 2.5",
+                    "shelly_id": "68C63AF92D05-1",
+                    "ip_address": "192.168.15.10",
+                    "unit_of_measurement": "kWh",
+                    "friendly_name": "Volet cuisine-1 - Total consumption",
+                    "icon": "mdi:flash-circle",
+                    "device_class": "power"
+                },
+                "last_changed": "2020-12-19T11:06:59.829402+00:00",
+                "last_updated": "2020-12-19T11:06:59.829402+00:00",
+                "context": {
+                    "id": "f6ee59f446cc1d9a6da197f077d7f095",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-19T11:07:02.770311+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "remote.harmony_hub",
+                "state": "off",
+                "attributes": {
+                    "activity_starting": null,
+                    "current_activity": "PowerOff",
+                    "activity_list": [
+                        "PS4",
+                        "Spotify",
+                        "Kodi",
+                        "TV"
+                    ],
+                    "devices_list": [
+                        "Microsoft Media PC",
+                        "Yamaha R\u00c3\u00a9cepteur AV",
+                        "Qnap Lecteur multim\u00c3\u00a9dia",
+                        "Sony PS4",
+                        "Panasonic TV",
+                        "Luminair Salon"
+                    ],
+                    "last_activity": "TV",
+                    "friendly_name": "Harmony Hub",
+                    "supported_features": 0
+                },
+                "last_changed": "2020-12-19T11:07:02.749562+00:00",
+                "last_updated": "2020-12-19T11:07:02.760490+00:00",
+                "context": {
+                    "id": "592e553d34783d02d3cfc000fb6f40f4",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-19T11:07:02.770311+00:00"
+        }
+    ]
+}

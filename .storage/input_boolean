@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "key": "input_boolean",
+    "data": {
+        "items": [
+            {
+                "name": "Volet hiver",
+                "icon": "mdi:window-shutter",
+                "id": "volet_hiver"
+            }
+        ]
+    }
+}

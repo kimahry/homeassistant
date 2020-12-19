@@ -1,0 +1,61 @@
+{
+    "version": "6",
+    "key": "hacs/194824532.hacs",
+    "data": {
+        "archived": false,
+        "authors": [],
+        "category": "plugin",
+        "content_in_root": false,
+        "country": [
+            "FR"
+        ],
+        "config_flow": false,
+        "default_branch": "master",
+        "description": "Weather Card with animated icons for Home Assistant Lovelace adapted to display all informations from M\u00e9t\u00e9o France integration",
+        "domain": "",
+        "domains": [],
+        "downloads": 0,
+        "file_name": "meteo-france-weather-card.js",
+        "filename": "",
+        "first_install": false,
+        "fork": false,
+        "full_name": "Imbuzi/meteo-france-weather-card",
+        "hacs": null,
+        "hide": false,
+        "hide_default_branch": false,
+        "homeassistant": null,
+        "id": "194824532",
+        "iot_class": null,
+        "installed": true,
+        "installed_commit": "b22c7f0",
+        "installed_version": "v1.12",
+        "open_issues": 11,
+        "last_commit": "b22c7f0",
+        "last_version": "v1.12",
+        "last_updated": "2020-10-17T21:38:11Z",
+        "manifest_name": null,
+        "new": false,
+        "persistent_directory": null,
+        "pushed_at": "2020-10-17T21:38:11",
+        "releases": true,
+        "render_readme": true,
+        "published_tags": [
+            "v1.12",
+            "v1.11",
+            "v1.10",
+            "v1.9",
+            "v1.8"
+        ],
+        "selected_tag": null,
+        "show_beta": false,
+        "stargazers_count": 15,
+        "topics": [
+            "animated-icons",
+            "home-assistant",
+            "lovelace-card",
+            "meteo-france",
+            "weather"
+        ],
+        "zip_release": false
+    }
+}

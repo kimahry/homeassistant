@@ -1,0 +1,277 @@
+{
+    "version": 1,
+    "key": "lovelace",
+    "data": {
+        "config": {
+            "background": "var(--background-image)",
+            "title": "Home",
+            "views": [
+                {
+                    "path": "default_view",
+                    "title": "Home",
+                    "theme": "",
+                    "badges": [
+                        {
+                            "entity": "sun.sun"
+                        },
+                        {
+                            "entity": "person.laurent"
+                        },
+                        {
+                            "entity": "remote.harmony_hub"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "type": "custom:meteo-france-weather-card",
+                            "name": "Ville",
+                            "entity": "weather.nantes",
+                            "rainForecastEntity": "sensor.nantes_next_rain",
+                            "freezeChanceEntity": "sensor.nantes_freeze_chance",
+                            "rainChanceEntity": "sensor.nantes_rain_chance",
+                            "snowChanceEntity": "sensor.nantes_snow_chance",
+                            "thunderChanceEntity": "sensor.ville_thunder_chance",
+                            "alertEntity": "sensor.44_weather_alert",
+                            "uvEntity": "sensor.nantes_uv"
+                        },
+                        {
+                            "type": "horizontal-stack",
+                            "cards": [
+                                {
+                                    "type": "custom:button-card",
+                                    "entity_id": "remote.harmony_hub",
+                                    "color_type": "icon",
+                                    "color": "auto",
+                                    "show_label": true,
+                                    "label": "On/Off",
+                                    "icon": "mdi:lightbulb-on-outline",
+                                    "size": "30%",
+                                    "styles": {
+                                        "card": [
+                                            {
+                                                "width": "100px"
+                                            },
+                                            {
+                                                "height": "100px"
+                                            }
+                                        ]
+                                    },
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "remote.send_command",
+                                        "service_data": {
+                                            "entity_id": "remote.harmony_hub",
+                                            "device": "Luminair Salon",
+                                            "command": "PowerToggle"
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "custom:button-card",
+                                    "entity_id": "remote.harmony_hub",
+                                    "color_type": "icon",
+                                    "color": "auto",
+                                    "icon": "mdi:lightbulb-multiple-outline",
+                                    "size": "30%",
+                                    "show_label": true,
+                                    "label": "Lights",
+                                    "styles": {
+                                        "card": [
+                                            {
+                                                "width": "100px"
+                                            },
+                                            {
+                                                "height": "100px"
+                                            }
+                                        ]
+                                    },
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "remote.send_command",
+                                        "service_data": {
+                                            "entity_id": "remote.harmony_hub",
+                                            "device": "Luminair Salon",
+                                            "command": "Bright"
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "custom:button-card",
+                                    "entity_id": "remote.harmony_hub",
+                                    "color_type": "icon",
+                                    "color": "auto",
+                                    "icon": "mdi:led-on",
+                                    "size": "30%",
+                                    "show_label": true,
+                                    "label": "LED",
+                                    "styles": {
+                                        "card": [
+                                            {
+                                                "width": "100px"
+                                            },
+                                            {
+                                                "height": "100px"
+                                            }
+                                        ]
+                                    },
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "remote.send_command",
+                                        "service_data": {
+                                            "entity_id": "remote.harmony_hub",
+                                            "device": "Luminair Salon",
+                                            "command": "Dim"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "cover.shelly_shsw_25_68c63af91e06"
+                                },
+                                {
+                                    "entity": "cover.shelly_shsw_25_68c63af92d05"
+                                },
+                                {
+                                    "entity": "input_boolean.volet_hiver"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Chauffage",
+                    "path": "chauffage",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "thermostat",
+                            "entity": "climate.thermostat_salon"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "automation.chauffage_salon_confort",
+                                "automation.chauffage_salon_eco"
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "sensor.sonde_salon",
+                                "sensor.sonde_salle_de_bain",
+                                "sensor.sonde_bureau",
+                                "sensor.sonde_chambre"
+                            ]
+                        },
+                        {
+                            "type": "history-graph",
+                            "entities": [
+                                {
+                                    "entity": "sensor.sonde_bureau"
+                                }
+                            ],
+                            "hours_to_show": 48,
+                            "refresh_interval": 0
+                        },
+                        {
+                            "type": "history-graph",
+                            "entities": [
+                                {
+                                    "entity": "sensor.sonde_chambre"
+                                }
+                            ],
+                            "hours_to_show": 48,
+                            "refresh_interval": 0
+                        },
+                        {
+                            "type": "history-graph",
+                            "entities": [
+                                {
+                                    "entity": "sensor.sonde_salon"
+                                }
+                            ],
+                            "hours_to_show": 48,
+                            "refresh_interval": 0
+                        },
+                        {
+                            "type": "history-graph",
+                            "entities": [
+                                {
+                                    "entity": "sensor.sonde_salle_de_bain"
+                                }
+                            ],
+                            "hours_to_show": 48,
+                            "refresh_interval": 0
+                        }
+                    ]
+                },
+                {
+                    "title": "Nettoyage",
+                    "path": "nettoyage",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "vacuum.neato"
+                                },
+                                {
+                                    "entity": "switch.neato_schedule"
+                                },
+                                {
+                                    "entity": "sensor.neato_battery"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "picture-entity",
+                            "entity": "camera.neato_cleaning_map"
+                        }
+                    ]
+                },
+                {
+                    "title": "Technique",
+                    "path": "technique",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "custom:battery-state-card",
+                            "color_gradient": [
+                                "#ff0000",
+                                "#ffff00",
+                                "#00ff00"
+                            ],
+                            "entities": [
+                                {
+                                    "entity": "sensor.sonde_salon_battery_level",
+                                    "name": "Sonde salon"
+                                },
+                                {
+                                    "entity": "sensor.sonde_bureau_battery_level",
+                                    "name": "Sonde bureau"
+                                },
+                                {
+                                    "entity": "sensor.sonde_chambre_battery_level",
+                                    "name": "Sonde chambre"
+                                },
+                                {
+                                    "entity": "sensor.sonde_salle_de_bain_battery_level",
+                                    "name": "Sonde salle de bain"
+                                },
+                                {
+                                    "entity": "sensor.thermostat_salon_battery_level",
+                                    "name": "Thermostat salon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

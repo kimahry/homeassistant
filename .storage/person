@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "laurent",
+                "user_id": "1e9de6afb6194b5ba5bc22d6eb39700f",
+                "device_trackers": [
+                    "device_tracker.lo_portable"
+                ],
+                "id": "laurent",
+                "picture": null
+            }
+        ]
+    }
+}

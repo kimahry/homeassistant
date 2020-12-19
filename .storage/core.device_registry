@@ -1,0 +1,391 @@
+{
+    "version": 1,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "3e0a8d06c41f396bdf728a845356fc2b"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hacs",
+                        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+                    ]
+                ],
+                "manufacturer": "hacs.xyz",
+                "model": "",
+                "name": "HACS",
+                "sw_version": "1.9.0",
+                "entry_type": "service",
+                "id": "35ae2eafc1a542150dcf94eca637eca9",
+                "via_device_id": null,
+                "area_id": "2ea0e0338e67fc919ef9575f1a94a226",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "59a13ac2f266cfce055704aa4af00951"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "harmony",
+                        "16481646"
+                    ]
+                ],
+                "manufacturer": "Logitech",
+                "model": "Harmony Hub",
+                "name": "Harmony Hub",
+                "sw_version": "4.15.280",
+                "entry_type": null,
+                "id": "c9181e156f61476783f15eed517c131e",
+                "via_device_id": null,
+                "area_id": "2ea0e0338e67fc919ef9575f1a94a226",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "89f7bda60f4bfb5f1d5d7438b3ee38cc"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "shelly",
+                        "68C63AF91E06"
+                    ]
+                ],
+                "manufacturer": "Allterco",
+                "model": "Shelly 2.5",
+                "name": "Shelly 2.5 - 68C63AF91E06-1",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "04c19e24527b95088a82b10aa8925f98",
+                "via_device_id": null,
+                "area_id": "2ea0e0338e67fc919ef9575f1a94a226",
+                "name_by_user": "Volet salon",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "89f7bda60f4bfb5f1d5d7438b3ee38cc"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "shelly",
+                        "68C63AF92D05"
+                    ]
+                ],
+                "manufacturer": "Allterco",
+                "model": "Shelly 2.5",
+                "name": "Shelly 2.5 - 68C63AF92D05-1",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "91274d883eadbce2d3b5a169a2bd3e95",
+                "via_device_id": null,
+                "area_id": "2ea0e0338e67fc919ef9575f1a94a226",
+                "name_by_user": "Volet cuisine",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "c6506e516dafe4bb6dd97693f5c0ad1e"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "2544266577cff304"
+                    ]
+                ],
+                "manufacturer": "samsung",
+                "model": "SM-T720",
+                "name": "Lo-tablette",
+                "sw_version": "29",
+                "entry_type": null,
+                "id": "92bc1c219380412d3b9349e845388e41",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "8dc320fd437e4d165fe4ca99de0110d8"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "c3025cbba3885056"
+                    ]
+                ],
+                "manufacturer": "HUAWEI",
+                "model": "COL-L29",
+                "name": "Lo-portable",
+                "sw_version": "29",
+                "entry_type": null,
+                "id": "8a8658313d65769f4c3d939378c02273",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "070f36d32a35712437585d130ea70a0f"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "neato",
+                        "GPC33420-D003EB4DA8AA"
+                    ]
+                ],
+                "manufacturer": "Panasonic",
+                "model": "BotVacD7Connected",
+                "name": "Neato",
+                "sw_version": "4.6.0-72",
+                "entry_type": null,
+                "id": "6f2fe4845101ff9d35c7aba58f340647",
+                "via_device_id": null,
+                "area_id": "2ea0e0338e67fc919ef9575f1a94a226",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "8477a907a60b7f2680c644095df6c519"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "02:42:ac:1e:21:00"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "sw_version": null,
+                "entry_type": null,
+                "id": "5c8492c1fcd216100e5d2dad704cf882",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "8477a907a60b7f2680c644095df6c519"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00212E05EE0A"
+                    ]
+                ],
+                "manufacturer": "Dresden Elektronik",
+                "model": "deCONZ",
+                "name": "Phoscon-GW",
+                "sw_version": "2.7.1",
+                "entry_type": null,
+                "id": "ae99e6a8cb6f02227f3a47926c8afa56",
+                "via_device_id": null,
+                "area_id": "2ea0e0338e67fc919ef9575f1a94a226",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "8477a907a60b7f2680c644095df6c519"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:21:2e:ff:ff:05:ee:0a"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00:21:2e:ff:ff:05:ee:0a"
+                    ]
+                ],
+                "manufacturer": "Philips",
+                "model": "PHDL00",
+                "name": "Daylight",
+                "sw_version": "1.0",
+                "entry_type": null,
+                "id": "f6bef2acd39fb99657bbeb82a472d60d",
+                "via_device_id": "ae99e6a8cb6f02227f3a47926c8afa56",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "8477a907a60b7f2680c644095df6c519"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:15:8d:00:05:42:23:75"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00:15:8d:00:05:42:23:75"
+                    ]
+                ],
+                "manufacturer": "LUMI",
+                "model": "lumi.weather",
+                "name": "Sonde bureau",
+                "sw_version": "20191205",
+                "entry_type": null,
+                "id": "f70ab1d2b7ea0832fe36d57f00abd5e5",
+                "via_device_id": "ae99e6a8cb6f02227f3a47926c8afa56",
+                "area_id": "25286af5cbca53d397765aba6e1c07ed",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "8477a907a60b7f2680c644095df6c519"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:15:8d:00:05:40:40:6e"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00:15:8d:00:05:40:40:6e"
+                    ]
+                ],
+                "manufacturer": "LUMI",
+                "model": "lumi.weather",
+                "name": "Sonde salle de bain",
+                "sw_version": "20191205",
+                "entry_type": null,
+                "id": "33f3c99d046531b6b503d4a58427e988",
+                "via_device_id": "ae99e6a8cb6f02227f3a47926c8afa56",
+                "area_id": "c5055eaae0677f9b9894055254d65fc7",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "8477a907a60b7f2680c644095df6c519"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:15:8d:00:03:2d:54:ff"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00:15:8d:00:03:2d:54:ff"
+                    ]
+                ],
+                "manufacturer": "LUMI",
+                "model": "lumi.weather",
+                "name": "Sonde chambre",
+                "sw_version": "20191205",
+                "entry_type": null,
+                "id": "756b9c8f0e5bdf257c27dfc1be09152f",
+                "via_device_id": "ae99e6a8cb6f02227f3a47926c8afa56",
+                "area_id": "0bf575e62868848d652743f27ba8169d",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "8477a907a60b7f2680c644095df6c519"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "00:15:8d:00:05:40:54:8b"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00:15:8d:00:05:40:54:8b"
+                    ]
+                ],
+                "manufacturer": "LUMI",
+                "model": "lumi.weather",
+                "name": "Sonde salon",
+                "sw_version": "20191205",
+                "entry_type": null,
+                "id": "6cbb5496357e0590e0086ab8cf6ccfaa",
+                "via_device_id": "ae99e6a8cb6f02227f3a47926c8afa56",
+                "area_id": "2ea0e0338e67fc919ef9575f1a94a226",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "8477a907a60b7f2680c644095df6c519"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "84:2e:14:ff:fe:29:3d:2c"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "deconz",
+                        "84:2e:14:ff:fe:29:3d:2c"
+                    ]
+                ],
+                "manufacturer": "Danfoss",
+                "model": "eTRV0100",
+                "name": "Thermostat salon",
+                "sw_version": "01.02.0008 01.02",
+                "entry_type": null,
+                "id": "258937e5330167d2175cacd4fa56636a",
+                "via_device_id": "ae99e6a8cb6f02227f3a47926c8afa56",
+                "area_id": "2ea0e0338e67fc919ef9575f1a94a226",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "8477a907a60b7f2680c644095df6c519"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "02:42:ac:1e:21:01"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "sw_version": null,
+                "entry_type": null,
+                "id": "d5ee784156867a6efda00171e17914e8",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            }
+        ],
+        "deleted_devices": []
+    }
+}

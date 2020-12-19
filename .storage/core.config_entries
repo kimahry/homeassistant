@@ -1,0 +1,172 @@
+{
+    "version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "3e0a8d06c41f396bdf728a845356fc2b",
+                "version": 1,
+                "domain": "hacs",
+                "title": "",
+                "data": {
+                    "token": "5c782d731bf27f21047882a8bd90f08301d1dfd1"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "cloud_poll",
+                "unique_id": null
+            },
+            {
+                "entry_id": "59a13ac2f266cfce055704aa4af00951",
+                "version": 1,
+                "domain": "harmony",
+                "title": "Harmony Hub",
+                "data": {
+                    "name": "Harmony Hub",
+                    "host": "192.168.15.16"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "ssdp",
+                "connection_class": "local_push",
+                "unique_id": "16481646"
+            },
+            {
+                "entry_id": "f537be73f147b49adfc16b17f49bb3dc",
+                "version": 1,
+                "domain": "meteo_france",
+                "title": "Nantes - Pays de la Loire (44) - FR",
+                "data": {
+                    "latitude": "47.21722",
+                    "longitude": "-1.55389"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "cloud_poll",
+                "unique_id": "47.21722, -1.55389"
+            },
+            {
+                "entry_id": "89f7bda60f4bfb5f1d5d7438b3ee38cc",
+                "version": 1,
+                "domain": "shelly",
+                "title": "configuration.yaml",
+                "data": {},
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "import",
+                "connection_class": "local_push",
+                "unique_id": null
+            },
+            {
+                "entry_id": "c6506e516dafe4bb6dd97693f5c0ad1e",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "SM-T720",
+                "data": {
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "3.0.2-full (521)",
+                    "device_name": "Lo-tablette",
+                    "manufacturer": "samsung",
+                    "model": "SM-T720",
+                    "os_name": "Android",
+                    "os_version": "29",
+                    "supports_encryption": false,
+                    "app_data": {
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+                        "push_token": "diGQdCrLSh2wzR-rYUrGAN:APA91bFtnqZ6qAqIGlwRYugNqSNBGlEQCu09q8BowVuR_xvImmQ__6Xa751A0l8fdS0vlIz8FhbwdUtpNMoOJB2TbU0WQoW85CCwNhMbyfvEIa8eueafTa7yBLk5HTgnBWWVKh0SkraY"
+                    },
+                    "device_id": "2544266577cff304",
+                    "webhook_id": "5a46194c7903c20f58d5bbd1a8b263649de73aba21cd3b651a4f3993106aa409",
+                    "user_id": "1e9de6afb6194b5ba5bc22d6eb39700f"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "registration",
+                "connection_class": "cloud_push",
+                "unique_id": "io.homeassistant.companion.android-2544266577cff304"
+            },
+            {
+                "entry_id": "8dc320fd437e4d165fe4ca99de0110d8",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Lo-portable",
+                "data": {
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "3.0.2-full (521)",
+                    "device_name": "Lo-portable",
+                    "manufacturer": "HUAWEI",
+                    "model": "COL-L29",
+                    "os_name": "Android",
+                    "os_version": "29",
+                    "supports_encryption": false,
+                    "app_data": {
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+                        "push_token": "eErkVpzcT_uOofo5qFD9Tn:APA91bFxWV2WFAshbRJT2jBxCjL2UiwC9l_B-0uswwA94JyV4tmX8D0xyy84LNPdVK2GBuIQWGOg4koZhePhKLRA0V2_9-10pS2LRfXoRVmwF4TeeJUstGaBysVF74hbrp1mQjwpfVWD"
+                    },
+                    "device_id": "c3025cbba3885056",
+                    "webhook_id": "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8",
+                    "user_id": "1e9de6afb6194b5ba5bc22d6eb39700f"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "registration",
+                "connection_class": "cloud_push",
+                "unique_id": "io.homeassistant.companion.android-c3025cbba3885056"
+            },
+            {
+                "entry_id": "070f36d32a35712437585d130ea70a0f",
+                "version": 1,
+                "domain": "neato",
+                "title": "laurentm@magelo.com",
+                "data": {
+                    "vendor": "neato",
+                    "username": "laurentm@magelo.com",
+                    "password": "kgnxoT7EhSduV8"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "cloud_poll",
+                "unique_id": null
+            },
+            {
+                "entry_id": "8477a907a60b7f2680c644095df6c519",
+                "version": 1,
+                "domain": "deconz",
+                "title": "00212E05EE0A",
+                "data": {
+                    "host": "172.30.33.1",
+                    "port": 40850,
+                    "api_key": "8FE2467DF1"
+                },
+                "options": {
+                    "master": true
+                },
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "hassio",
+                "connection_class": "local_push",
+                "unique_id": "00212E05EE0A"
+            }
+        ]
+    }
+}

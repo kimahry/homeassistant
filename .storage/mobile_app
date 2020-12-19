@@ -1,0 +1,324 @@
+{
+    "version": 1,
+    "key": "mobile_app",
+    "data": {
+        "binary_sensor": {
+            "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8_is_charging": {
+                "unique_id": "is_charging",
+                "state": false,
+                "type": "binary_sensor",
+                "icon": "mdi:power-plug-off",
+                "attributes": {},
+                "name": "En charge",
+                "device_class": "plug",
+                "webhook_id": "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8",
+                "added": true
+            },
+            "5a46194c7903c20f58d5bbd1a8b263649de73aba21cd3b651a4f3993106aa409_is_charging": {
+                "unique_id": "is_charging",
+                "state": false,
+                "type": "binary_sensor",
+                "icon": "mdi:power-plug-off",
+                "attributes": {},
+                "name": "En charge",
+                "device_class": "plug",
+                "webhook_id": "5a46194c7903c20f58d5bbd1a8b263649de73aba21cd3b651a4f3993106aa409",
+                "added": true
+            }
+        },
+        "deleted_ids": [],
+        "sensor": {
+            "5a46194c7903c20f58d5bbd1a8b263649de73aba21cd3b651a4f3993106aa409_battery_level": {
+                "unique_id": "battery_level",
+                "state": 58,
+                "type": "sensor",
+                "icon": "mdi:battery-50",
+                "attributes": {},
+                "name": "Niveau de batterie",
+                "device_class": "battery",
+                "unit_of_measurement": "%",
+                "webhook_id": "5a46194c7903c20f58d5bbd1a8b263649de73aba21cd3b651a4f3993106aa409",
+                "added": true
+            },
+            "5a46194c7903c20f58d5bbd1a8b263649de73aba21cd3b651a4f3993106aa409_light_sensor": {
+                "unique_id": "light_sensor",
+                "state": "911",
+                "type": "sensor",
+                "icon": "mdi:brightness-5",
+                "attributes": {},
+                "name": "Capteur de luminosit\u00e9",
+                "device_class": "illuminance",
+                "unit_of_measurement": "lx",
+                "webhook_id": "5a46194c7903c20f58d5bbd1a8b263649de73aba21cd3b651a4f3993106aa409",
+                "added": true
+            },
+            "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8_battery_level": {
+                "unique_id": "battery_level",
+                "state": 84,
+                "type": "sensor",
+                "icon": "mdi:battery-80",
+                "attributes": {},
+                "name": "Niveau de batterie",
+                "device_class": "battery",
+                "unit_of_measurement": "%",
+                "webhook_id": "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8",
+                "added": true
+            },
+            "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8_bluetooth_connection": {
+                "unique_id": "bluetooth_connection",
+                "state": 1,
+                "type": "sensor",
+                "icon": "mdi:bluetooth",
+                "attributes": {
+                    "connected_not_paired_devices": "[]",
+                    "connected_paired_devices": "[D8:68:C3:08:D7:A4]",
+                    "paired_devices": "[D8:68:C3:08:D7:A4, 00:1E:A4:FF:E9:FF, BC:F2:92:51:9F:13, 00:24:E4:37:C6:9B, 38:18:4C:F9:31:DA, C0:28:8D:BB:B2:A4]"
+                },
+                "name": "Connexion Bluetooth",
+                "unit_of_measurement": "connection(s)",
+                "webhook_id": "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8",
+                "added": true
+            },
+            "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8_light_sensor": {
+                "unique_id": "light_sensor",
+                "state": "51",
+                "type": "sensor",
+                "icon": "mdi:brightness-5",
+                "attributes": {},
+                "name": "Capteur de luminosit\u00e9",
+                "device_class": "illuminance",
+                "unit_of_measurement": "lx",
+                "webhook_id": "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8",
+                "added": true
+            },
+            "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8_battery_state": {
+                "unique_id": "battery_state",
+                "state": "discharging",
+                "type": "sensor",
+                "icon": "mdi:battery-minus",
+                "attributes": {},
+                "name": "\u00c9tat de la batterie",
+                "webhook_id": "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8",
+                "added": true
+            },
+            "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8_charger_type": {
+                "unique_id": "charger_type",
+                "state": "none",
+                "type": "sensor",
+                "icon": "mdi:battery",
+                "attributes": {},
+                "name": "Type de chargeur",
+                "webhook_id": "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8",
+                "added": true
+            },
+            "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8_last_reboot": {
+                "unique_id": "last_reboot",
+                "state": "2020-11-28T17:57:31Z",
+                "type": "sensor",
+                "icon": "mdi:restart",
+                "attributes": {
+                    "Local Time": "Sat Nov 28 18:57:31 GMT+01:00 2020",
+                    "Time in Milliseconds": 1606586251207
+                },
+                "name": "Dernier red\u00e9marrage",
+                "device_class": "timestamp",
+                "webhook_id": "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8",
+                "added": true
+            },
+            "5a46194c7903c20f58d5bbd1a8b263649de73aba21cd3b651a4f3993106aa409_wifi_connection": {
+                "unique_id": "wifi_connection",
+                "state": "<not connected>",
+                "type": "sensor",
+                "icon": "mdi:wifi-off",
+                "attributes": {
+                    "is_hidden": true
+                },
+                "name": "Connexion Wi-Fi",
+                "webhook_id": "5a46194c7903c20f58d5bbd1a8b263649de73aba21cd3b651a4f3993106aa409",
+                "added": true
+            },
+            "5a46194c7903c20f58d5bbd1a8b263649de73aba21cd3b651a4f3993106aa409_geocoded_location": {
+                "unique_id": "geocoded_location",
+                "state": "3 Mail Pablo Picasso, 44000 Nantes, France",
+                "type": "sensor",
+                "icon": "mdi:map",
+                "attributes": {
+                    "Administrative Area": "Pays de la Loire",
+                    "Country": "France",
+                    "ISO Country Code": "FR",
+                    "Latitude": 47.21611,
+                    "Locality": "Nantes",
+                    "Longitude": -1.5334979,
+                    "Postal Code": "44000",
+                    "Sub Administrative Area": "Loire-Atlantique",
+                    "Sub Locality": "null",
+                    "Sub Thoroughfare": "3",
+                    "Thoroughfare": "Mail Pablo Picasso"
+                },
+                "name": "Lieu g\u00e9ocod\u00e9",
+                "webhook_id": "5a46194c7903c20f58d5bbd1a8b263649de73aba21cd3b651a4f3993106aa409",
+                "added": true
+            },
+            "5a46194c7903c20f58d5bbd1a8b263649de73aba21cd3b651a4f3993106aa409_battery_state": {
+                "unique_id": "battery_state",
+                "state": "discharging",
+                "type": "sensor",
+                "icon": "mdi:battery-minus",
+                "attributes": {},
+                "name": "\u00c9tat de la batterie",
+                "webhook_id": "5a46194c7903c20f58d5bbd1a8b263649de73aba21cd3b651a4f3993106aa409",
+                "added": true
+            },
+            "5a46194c7903c20f58d5bbd1a8b263649de73aba21cd3b651a4f3993106aa409_charger_type": {
+                "unique_id": "charger_type",
+                "state": "none",
+                "type": "sensor",
+                "icon": "mdi:battery",
+                "attributes": {},
+                "name": "Type de chargeur",
+                "webhook_id": "5a46194c7903c20f58d5bbd1a8b263649de73aba21cd3b651a4f3993106aa409",
+                "added": true
+            },
+            "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8_storage_sensor": {
+                "unique_id": "storage_sensor",
+                "state": 86,
+                "type": "sensor",
+                "icon": "mdi:harddisk",
+                "attributes": {
+                    "Free internal storage": "96GB",
+                    "Total internal storage": "111GB"
+                },
+                "name": "Stockage interne",
+                "unit_of_measurement": "%",
+                "webhook_id": "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8",
+                "added": true
+            },
+            "5a46194c7903c20f58d5bbd1a8b263649de73aba21cd3b651a4f3993106aa409_storage_sensor": {
+                "unique_id": "storage_sensor",
+                "state": 84,
+                "type": "sensor",
+                "icon": "mdi:harddisk",
+                "attributes": {
+                    "Free internal storage": "42GB",
+                    "Total internal storage": "50GB"
+                },
+                "name": "Stockage interne",
+                "unit_of_measurement": "%",
+                "webhook_id": "5a46194c7903c20f58d5bbd1a8b263649de73aba21cd3b651a4f3993106aa409",
+                "added": true
+            },
+            "5a46194c7903c20f58d5bbd1a8b263649de73aba21cd3b651a4f3993106aa409_external_storage": {
+                "unique_id": "external_storage",
+                "state": 73,
+                "type": "sensor",
+                "icon": "mdi:micro-sd",
+                "attributes": {
+                    "free_external_storage": "43GB",
+                    "total_external_storage": "59GB"
+                },
+                "name": "Stockage externe",
+                "unit_of_measurement": "%",
+                "webhook_id": "5a46194c7903c20f58d5bbd1a8b263649de73aba21cd3b651a4f3993106aa409",
+                "added": true
+            },
+            "5a46194c7903c20f58d5bbd1a8b263649de73aba21cd3b651a4f3993106aa409_current_version": {
+                "unique_id": "current_version",
+                "state": "3.0.2-full",
+                "type": "sensor",
+                "icon": "mdi:android",
+                "attributes": {},
+                "name": "Current Version",
+                "webhook_id": "5a46194c7903c20f58d5bbd1a8b263649de73aba21cd3b651a4f3993106aa409",
+                "added": true
+            },
+            "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8_proximity_sensor": {
+                "unique_id": "proximity_sensor",
+                "state": "near",
+                "type": "sensor",
+                "icon": "mdi:leak",
+                "attributes": {},
+                "name": "Capteur de proximit\u00e9",
+                "webhook_id": "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8",
+                "added": true
+            },
+            "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8_wifi_connection": {
+                "unique_id": "wifi_connection",
+                "state": "lo-home",
+                "type": "sensor",
+                "icon": "mdi:wifi",
+                "attributes": {
+                    "is_hidden": false
+                },
+                "name": "Connexion Wi-Fi",
+                "webhook_id": "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8",
+                "added": true
+            },
+            "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8_external_storage": {
+                "unique_id": "external_storage",
+                "state": 0,
+                "type": "sensor",
+                "icon": "mdi:micro-sd",
+                "attributes": {
+                    "free_external_storage": "No SD Card",
+                    "total_external_storage": "No SD Card"
+                },
+                "name": "Stockage externe",
+                "unit_of_measurement": "%",
+                "webhook_id": "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8",
+                "added": true
+            },
+            "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8_geocoded_location": {
+                "unique_id": "geocoded_location",
+                "state": "3 Mail Pablo Picasso, 44000 Nantes, France",
+                "type": "sensor",
+                "icon": "mdi:map",
+                "attributes": {
+                    "Administrative Area": "Pays de la Loire",
+                    "Country": "France",
+                    "ISO Country Code": "FR",
+                    "Latitude": 47.21611,
+                    "Locality": "Nantes",
+                    "Longitude": -1.5334979,
+                    "Postal Code": "44000",
+                    "Sub Administrative Area": "Loire-Atlantique",
+                    "Sub Locality": "null",
+                    "Sub Thoroughfare": "3",
+                    "Thoroughfare": "Mail Pablo Picasso"
+                },
+                "name": "Lieu g\u00e9ocod\u00e9",
+                "webhook_id": "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8",
+                "added": true
+            },
+            "5a46194c7903c20f58d5bbd1a8b263649de73aba21cd3b651a4f3993106aa409_next_alarm": {
+                "unique_id": "next_alarm",
+                "state": "unavailable",
+                "type": "sensor",
+                "icon": "mdi:alarm",
+                "attributes": {
+                    "Local Time": "",
+                    "Package": "",
+                    "Time in Milliseconds": 0
+                },
+                "name": "Prochaine alarme",
+                "device_class": "timestamp",
+                "webhook_id": "5a46194c7903c20f58d5bbd1a8b263649de73aba21cd3b651a4f3993106aa409",
+                "added": true
+            },
+            "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8_next_alarm": {
+                "unique_id": "next_alarm",
+                "state": "unavailable",
+                "type": "sensor",
+                "icon": "mdi:alarm",
+                "attributes": {
+                    "Local Time": "",
+                    "Package": "",
+                    "Time in Milliseconds": 0
+                },
+                "name": "Prochaine alarme",
+                "device_class": "timestamp",
+                "webhook_id": "b3c10c35ae42963c799abf1e1f5211991ad55adf5f8934a78dce726b48e2f6e8",
+                "added": true
+            }
+        }
+    }
+}

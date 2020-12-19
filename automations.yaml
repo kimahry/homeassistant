@@ -1,0 +1,110 @@
+- id: '1607163472914'
+  alias: volets_fermetture_nuit
+  description: ''
+  trigger:
+  - platform: time
+    at: '23:59'
+  condition:
+  - condition: state
+    entity_id: input_boolean.volet_hiver
+    state: 'on'
+  action:
+  - device_id: 04c19e24527b95088a82b10aa8925f98
+    domain: cover
+    entity_id: cover.shelly_shsw_25_68c63af91e06
+    type: close
+  - device_id: 91274d883eadbce2d3b5a169a2bd3e95
+    domain: cover
+    entity_id: cover.shelly_shsw_25_68c63af92d05
+    type: close
+  mode: single
+- id: '1607163590065'
+  alias: Volet ouverture jour
+  description: ''
+  trigger:
+  - platform: time
+    at: 08:00
+  condition: []
+  action:
+  - device_id: 91274d883eadbce2d3b5a169a2bd3e95
+    domain: cover
+    entity_id: cover.shelly_shsw_25_68c63af92d05
+    type: open
+  - device_id: 04c19e24527b95088a82b10aa8925f98
+    domain: cover
+    entity_id: cover.shelly_shsw_25_68c63af91e06
+    type: open
+  mode: single
+- id: '1607255382449'
+  alias: Chauffage salon eco
+  description: ''
+  trigger:
+  - platform: template
+    value_template: '{{ states.input_datetime.salon_stop_confort.state[0:5] == states.sensor.time.state
+      }}'
+  condition: []
+  action:
+  - service: climate.set_temperature
+    data:
+      temperature: 19
+    entity_id: climate.thermostat_salon
+  mode: single
+- id: '1607255620040'
+  alias: Chauffage salon confort
+  description: ''
+  trigger:
+  - platform: template
+    value_template: '{{ states.input_datetime.salon_start_confort_week.state[0:5]
+      == states.sensor.time.state }}'
+  condition:
+  - condition: time
+    weekday:
+    - mon
+    - tue
+    - wed
+    - thu
+    - fri
+  action:
+  - service: climate.set_temperature
+    entity_id: climate.thermostat_salon
+    data:
+      temperature: 22
+  mode: single
+- id: '1607270848973'
+  alias: volet_ouverture_jour
+  description: ''
+  trigger:
+  - platform: time
+    at: 08:00
+  condition:
+  - condition: state
+    entity_id: input_boolean.volet_hiver
+    state: 'on'
+  action:
+  - device_id: 91274d883eadbce2d3b5a169a2bd3e95
+    domain: cover
+    entity_id: cover.shelly_shsw_25_68c63af92d05
+    type: open
+  - device_id: 04c19e24527b95088a82b10aa8925f98
+    domain: cover
+    entity_id: cover.shelly_shsw_25_68c63af91e06
+    type: open
+  mode: single
+- id: '1607368404681'
+  alias: ' Chauffage salon confort weekend'
+  description: ''
+  trigger:
+  - platform: template
+    value_template: '{{ states.input_datetime.salon_start_confort_week_end.state[0:5]
+      == states.sensor.time.state }}'
+  condition:
+  - condition: time
+    weekday:
+    - sat
+    - sun
+  action:
+  - service: climate.set_temperature
+    data:
+      temperature: 22
+    entity_id: climate.thermostat_salon
+  mode: single
